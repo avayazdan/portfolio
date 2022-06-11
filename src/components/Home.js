@@ -50,6 +50,7 @@ function Home() {
           <p>Hi, I'm Ava. I'm a Full Stack Software Engineer with a passion for
             technology, learning, and creating.<br></br>
               Currently based in London, United Kingdom.</p>
+              <h3>More about me</h3>
           <p>Creative arts - I have dedicated most of my life to the creative arts, specifically in music, where I
             achieved the most out of all of my creative endeavours. Some highlights of my music career were playing
             national shows, playing sets and featuring on various online Radio such as NTS and Radar Radio,

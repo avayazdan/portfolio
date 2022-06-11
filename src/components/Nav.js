@@ -11,7 +11,7 @@ function Nav() {
             <header>
                 <nav className="nav-bar">
                   {/* <img src={WalkiesLogo} alt="Walkies logo"></img> */}
-                    <ul>
+                    {/* <ul>
                         <li>
                             <Link to="/"> Home</Link>
                         </li>
@@ -31,7 +31,7 @@ function Nav() {
                             <Link to="/dogs/mydog">My Dogs</Link>
                         </li>
 
-                    </ul>
+                    </ul> */}
                 </nav>
             </header>
             <main>
