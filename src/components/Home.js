@@ -8,12 +8,26 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <><div class="h1-box">
+    <>
+    {/* <div class="h1-box">
       <div class="typewrite">
         <h1>Hi, I'm Ava...</h1>
       </div>
-    </div><h2>Full Stack Software Engineer</h2><div class="nav-container">
-        <nav class="navigation">
+    </div> */}
+    <div className="container">
+    <div className="box">
+        <div className="title">
+            <h1>Ava Yaz</h1>
+        </div>
+    <div className="role">
+      <div className="block"></div>
+      <p>Full Stack Software Engineer</p>
+      </div>
+      </div>
+      </div>
+      <div className="container-2">
+    <div className="nav-container">
+        <nav className="navigation">
           <ul>
 
             <a href='#'>
@@ -42,7 +56,9 @@ function Home() {
 
           </ul>
         </nav>
-      </div><div class="ball-body">
+        </div>
+      </div>
+      <div class="ball-body">
         <div class="ball">
         </div>
       </div><section id="about">
