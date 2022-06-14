@@ -22,7 +22,21 @@ body {
   width: 100%;
   height: 60vh;
   background: #b490b2;
+  /* background: radial-gradient(#a23982,#b490b2); */
+
 }
+
+.images-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.homepage {
+  width: 35vh;
+  padding: 10px;
+}
+
   
 .box {
   width: 250px;
@@ -192,6 +206,21 @@ p {
       opacity: 0.5;
     }
   }
+
+/* a b o u t m e s e c t i o n */
+
+.container-3 {
+  width: 100%;
+  height: 60vh;
+
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+
 
 /* n a v i g a t i o n */
 
