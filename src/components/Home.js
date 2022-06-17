@@ -7,6 +7,16 @@ import HomepageThree from "../assets/3d5.png"
 import HomepageFour from "../assets/3d6.jpg"
 import HomepageFive from "../assets/3d4.jpg"
 import HomepageSix from "../assets/3d2.jpg"
+import HomepageSeven from "../assets/3d7.jpg"
+import Aliens from "../assets/aliens.png"
+import Btj from "../assets/btj.png"
+import Dnd from "../assets/dnd.png"
+import Walkies from "../assets/walkies.png"
+
+
+
+
+
 
 
 
@@ -217,49 +227,34 @@ function Home() {
             I have recently graduated from a 480 hour bootcamp at <a className="ga-a" href="https://generalassemb.ly/">General Assembly</a><br>
             </br> where we were given time-constrained projects to complete, in solo, in pairs as well as in groups.
           </p>
-          <h4 className="space">Space Invaders - Solo Project - 1 week</h4>
-          <h4>Bite The Jaw - Solo Project - 2 weeks</h4>
-          <h4>Walkies - Group Project - 2 weeks</h4>
-          <h4>Dungeons & Dragons character builder - Paired project - 1 week</h4>
+          <div className="projects-container">
+      <img className="projects" src = {Dnd} alt = "3d artwork"/>
+      <img className="projects" src = {Btj} alt = "3d artwork"/>
+      <img className="projects" src = {Walkies} alt = "3d artwork"/>
+      <img className="projects" src = {Aliens} alt = "3d artwork"/>
+      </div>
+      <div className="titles-container">
+          <h4><a className="ga-a" href="https://dndgeneratorr.netlify.app/">Dungeons & Dragons character builder <br></br>- Paired project - 1 week</a></h4>
+          <h4><a className="ga-a" href="https://github.com/avayazdan/btj-client">Bite The Jaw - Solo Project - 2 weeks</a></h4>
+          <h4><a className="ga-a" href="https://walkiessei22.netlify.app/">Walkies - Group Project - 2 weeks</a></h4>
+          <h4><a className="ga-a" href="https://space-invaders-1337.netlify.app/">Space Invaders - Solo Project - 1 week</a></h4>
+          </div>
+        </div>
+        <div className="container-7">
+          <h3>Contact</h3>
+          <p className="about-me">
+            If there's anything you liked about this portfolio, or you want to hear more about music or other creative endevours, or just
+            simply want to get in touch, you can find me at avayaz1337@gmail.com.<br></br>
+            <div className="links-container">
+            <a className="ga-a" href="https://github.com/avayazdan">Github</a><br></br>&nbsp;&nbsp;&nbsp;
+            <a className="ga-a" href="https://linkedin.com/ava-yazdany">LinkedIn</a><br></br>
+            </div>
+      <img className="homepage" src = {HomepageSeven} alt = "3d artwork"/>
 
 
+          </p>
         </div>
       </section>
-      <div class="button">
-        <button></button>
-      </div><h3 align="left">:wrench: Languages and Tools:</h3><br></br><p align="left"><a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-        alt="css3" width="40" height="40" /> </a> <a href="https://www.djangoproject.com/" target="_blank"
-          rel="noreferrer"> <img src https />://preneure.com/wp-content/uploads/2022/02/django.png" alt="django"
-          width="40" height="40" /> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-            alt="express" width="40" height="40" /> </a> <a href="https://git-scm.com/" target="_blank"
-              rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"
-                width="40" height="40" /> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-            alt="html5" width="40" height="40" /> </a> <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-            alt="javascript" width="40" height="40" /> </a> <a href="https://jestjs.io" target="_blank"
-              rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest"
-                width="40" height="40" /> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-            alt="mongodb" width="40" height="40" /> </a> <a href="https://www.mysql.com/" target="_blank"
-              rel="noreferrer"> <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-            alt="mysql" width="40" height="40" /> </a> <a href="https://nodejs.org" target="_blank"
-              rel="noreferrer"> <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-            alt="nodejs" width="40" height="40" /> </a> <a href="https://www.postgresql.org" target="_blank"
-              rel="noreferrer"> <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
-            alt="postgresql" width="40" height="40" /> </a> <a href="https://www.python.org" target="_blank"
-              rel="noreferrer"> <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-            alt="python" width="40" height="40" /> </a> <a href="https://reactjs.org/" target="_blank"
-              rel="noreferrer"> <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-            alt="react" width="40" height="40" /> </a> </p><br></br>
               </>
   )
 }
