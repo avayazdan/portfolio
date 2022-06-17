@@ -84,8 +84,18 @@ h4 {
   text-align: center;
 }
 
+.space {
+  padding-top: 50px;
+}
+
 .about-me {
   font-family: 'Red Hat Mono', monospace;
+  text-align: center;
+}
+
+.ga-a {
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 20px;
 }
   
 span {
@@ -230,9 +240,34 @@ p {
 
 .container-3 {
   width: 100%;
-  height: 70vh;
+  height: 96vh;
   background-color: #e91e63;
+  margin-top: -30px;
+  margin-bottom: -30px;
 
+}
+
+.container-4 {
+  width: 100%;
+  height: 70vh;
+  margin-top: -20px;
+  padding-bottom: 30px;
+  background-color: #ab647b;
+}
+
+
+.container-5 {
+  width: 100%;
+  height: 70vh;
+  margin-top: -30px;
+  background-color: #da7fc8c8;
+}
+
+.container-6 {
+  width: 100%;
+  height: 70vh;
+  margin-top: -30px;
+  background-color: #7bc2d2c8;
 }
 
 h3 {
@@ -240,9 +275,13 @@ h3 {
   color: white;
   font-family: NavFont;
   padding-top: 22px;
+  font-size: 30px;
 }
 
-
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* n a v i g a t i o n */
 
