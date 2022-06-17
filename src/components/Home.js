@@ -78,7 +78,7 @@ function Home() {
       </div>
       <section id="about">
         <div className="container-3">
-              <h3>A little about me...</h3>
+              <h3>About me</h3>
           <h4>Hi, I'm Ava. I'm a Full Stack Software Engineer with a passion for
             technology, learning, and creating.<br></br>
               Currently based in London, United Kingdom.</h4>
