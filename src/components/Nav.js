@@ -44,14 +44,12 @@ function Nav() {
               <a href ="https://www.instagram.com" target="_blank" rel="noreferrer noopener"><img src ={InstagramLogo} alt ="instagram logo"></img></a> */}
               </div>
             <footer>
-              <p className="footer">&copy;Walkies 2022</p>
+              <p className="footer">Website by Ava Yaz</p>
               <div className="contact-container">
-              <p className="footer">Contact us:<br>
-              </br><br></br>Phone: 0207 637 289<br>
-              </br>Email: info@walkies.com<br>
-              </br>Address: 129<br></br>
-              Holloway Road<br></br>
-              NW10 7H2</p>
+              <p className="footer">Linked In<br>
+              </br><br></br>Artwork by<br>
+              </br><br>
+              </br><br></br><br></br></p>
               </div>
 
             </footer>

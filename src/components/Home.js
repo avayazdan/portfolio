@@ -79,25 +79,47 @@ function Home() {
       <section id="about">
         <div className="container-3">
               <h3>A little about me...</h3>
-          <p>Hi, I'm Ava. I'm a Full Stack Software Engineer with a passion for
+          <h4>Hi, I'm Ava. I'm a Full Stack Software Engineer with a passion for
             technology, learning, and creating.<br></br>
-              Currently based in London, United Kingdom.</p>
-          <p>Creative arts - I have dedicated most of my life to the creative arts, specifically in music, where I
+              Currently based in London, United Kingdom.</h4>
+          <p className="about-me">
+            I come from a diverse background with a range of different work experiences. The most recent, being online ESL teaching to a range of 
+            different students from different cultures and ages. This role emphasised my love for using technology as a tool. I have always adored 
+            computers and technology growing up, being a child of the digital age, I spent a lot of my time as a tween experimenting on the world 
+            wide web and being fascinated by the little crevices of the internet, plus video games. This led me to grow up being extremely tech-savvy
+            and finding a comfort when working with and troubleshooting issues with computers. However, I am a big believer in following your heart's 
+            desires, and so I dedicated most of my high school-university experience to my love for music. This lead me to neglect a lot of other
+            pathways and interests until after I graduated from university. Which is where programming and software engineering came in. As 
+            someone with no background in STEM, it has been a long, challanging road, often suffering from intense imposter syndrome and self
+            -comparisons to others, and believe me, I'm still conquering a lot of things on this journey. But every step has been rewarding 
+            and has taught me things about myself along the way, and I can't wait to grow and learn more.</p>
+            <h3>Interests and achievements</h3>
+            <h4>Creative arts</h4>
+            <p>I have dedicated most of my life to the creative arts, specifically in music, where I
             achieved the most out of all of my creative endeavours. Some highlights of my music career were playing
             national shows, playing sets and featuring on various online Radio such as NTS and Radar Radio,
-            collaborating with artists from all over the world, directing my own music videos, and earning 265K
-            plays in total on SoundCloud. I am self-taught in screenwriting and have written two feature-length film
-            scripts. Last year I released a short poetry anthology and I currently write on Substack. I am also in
-            the process of creating my first few video essays, which aim to analyse media. I am extremely passionate
+            collaborating with artists from all over the world, directing my own music videos, and earning over 265K
+            plays in total on SoundCloud. As well as music, I am self-taught in screenwriting and have written two feature-length film
+            scripts. Last year I published a short poetry anthology and I currently write on Substack. I am also in
+            the process of creating my first few video essays, which aim to analyse media and share ideas about 
+            self-improvement and different aspects of the human experience. I am extremely passionate
             about writing, collaborating with others sonically and cult films and have succeeded in all of these
-            areas in my own way.
-            The humanities - I have a love for history, specifically history of art, which is why I have a small
+            areas in my own way.</p>
+            <h4>The humanities</h4>
+            <p>I have a love for history, specifically history of art, which is why I have a small
             Instagram page dedicated to my own personal curation of my favourite moments in art history. I am also
             passionate about Western Philosophy, language learning, psychology and logical reasoning in social
-            politics.
-            Interests and more about me:
-            I have dedicated most of my life to the creative arts, specifically in music, where I achieved the most out of all of my creative endeavours. Some highlights of my music career were playing national shows, playing sets and featuring on various online Radio such as NTS and Radar Radio, collaborating with artists from all over the world, directing my own music videos, and earning over 265K plays in total on SoundCloud. I am self-taught in screenwriting and have written two feature-length film scripts. Last year, I self-published a short poetry anthology and I currently write on Substack. I am extremely passionate about writing, collaborating with others sonically, cult cinema, and have succeeded in all of these areas in my own way. I also have a love for languages and the humanities, and have taught myself a lot about these subjects in recent years. I hope to carry on growing my knowledge in all areas I am interested in, both technical and artistic in the years to come.</p>
+            politics.</p>
+            <h4>Languages</h4>
+            <p>I have a huge passion for languages, I can probably say at least one word from 30 different languages. I am self-taught in French,
+            at B2-C1 level, which is upper intermediate. I am also fluent in Persian, as well as early conversational in Spanish, Japanese 
+            and Mandarin. I aim to be a polyglot by 2025.</p>
+            <br></br>
+            <br></br>
+          <p>I have taught myself a lot about various subjects in recent years. I hope to carry on growing my knowledge in all areas I am interested in,
+        both technical and artistic in the years to come, as well as the new things I wish to learn, whether that's technical or purely creative.</p>
         </div>
+
       </section>
       <div class="button">
         <button></button>
