@@ -46,8 +46,7 @@ function Nav() {
             <footer>
               <p className="footer">Website by Ava Yaz</p>
               <div className="contact-container">
-              <p className="footer">Linked In<br>
-              </br><br></br>Artwork by<br>
+              <p className="footer"><br></br>Artwork by JIIING7 on Tumblr<br>
               </br><br>
               </br><br></br><br></br></p>
               </div>
