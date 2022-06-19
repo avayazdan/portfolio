@@ -115,6 +115,12 @@ meter::-webkit-meter-optimum-value {
   font-size: 20px;
   color: white;
 }
+
+.ga-p {
+  color: black;
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 20px;
+}
   
 span {
   width:0px;

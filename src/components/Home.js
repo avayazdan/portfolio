@@ -233,10 +233,10 @@ function Home() {
       <img className="projects" src = {Aliens} alt = "3d artwork"/>
       </div>
       <div className="titles-container">
-          <h4><a className="ga-a" href="https://dndgeneratorr.netlify.app/">Dungeons & Dragons character builder <br></br>- Paired project - 1 week</a></h4>
-          <h4><a className="ga-a" href="https://github.com/avayazdan/btj-client">Bite The Jaw - Solo Project - 2 weeks</a></h4>
-          <h4><a className="ga-a" href="https://walkiessei22.netlify.app/">Walkies - Group Project - 2 weeks</a></h4>
-          <h4><a className="ga-a" href="https://space-invaders-1337.netlify.app/">Space Invaders - Solo Project - 1 week</a></h4>
+          <h4><a className="ga-p" href="https://dndgeneratorr.netlify.app/">Dungeons & Dragons character builder <br></br>- Paired project - 1 week</a></h4>
+          <h4><a className="ga-p" href="https://github.com/avayazdan/btj-client">Bite The Jaw - Solo Project - 2 weeks</a></h4>
+          <h4><a className="ga-p" href="https://walkiessei22.netlify.app/">Walkies - Group Project - 2 weeks</a></h4>
+          <h4><a className="ga-p" href="https://space-invaders-1337.netlify.app/">Space Invaders - Solo Project - 1 week</a></h4>
           </div>
         </div>
         <div className="container-7">
