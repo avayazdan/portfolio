@@ -1,6 +1,6 @@
 import React from "react"
-// import "../home.css"
-import { Link } from "react-router-dom";
+import "animate.css/animate.min.css";
+// import { Link } from "react-router-dom";
 import HomepageOne from "../assets/3d1.jpg"
 import HomepageTwo from "../assets/3d3.jpg"
 import HomepageThree from "../assets/3d5.png"
@@ -12,22 +12,20 @@ import Aliens from "../assets/aliens.png"
 import Btj from "../assets/btj.png"
 import Dnd from "../assets/dnd.png"
 import Walkies from "../assets/walkies.png"
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-
-
-
-
-
-
-
-
-
-
-
-{/* <link rel="stylesheet" href="home.css"></link> */}
+// stuff to do:
+// fix/add scroll animation 
+// add borders to about me section
+// add some sort of background animation to skills
+// add a fixed when scrolling image to the whole background
+// add opacity hover animation to images
+// add scroll down to sections from navigation
+// add final media queries 
 
 function Home() {
-  return (
+    return (
+      
     <>
     {/* <div class="h1-box">
       <div class="typewrite">
@@ -96,6 +94,7 @@ function Home() {
           <h4>Hi, I'm Ava. I'm a Full Stack Software Engineer with a passion for
             technology, learning, and creating.<br></br>
               Currently based in London, United Kingdom.</h4>
+
           <p className="about-me">
             I come from a diverse background with a range of different work experiences.<br></br>
             The most recent, being online ESL teaching to a range of 
@@ -249,13 +248,14 @@ function Home() {
             <a className="ga-a" href="https://linkedin.com/ava-yazdany">LinkedIn</a><br></br>
             </div>
       <img className="homepage" src = {HomepageSeven} alt = "3d artwork"/>
-
-
           </p>
         </div>
       </section>
               </>
+              
   )
+  
 }
+
 
 export default Home
