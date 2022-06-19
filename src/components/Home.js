@@ -79,8 +79,8 @@ function Home() {
         </nav>
         </div>
         <div className="images-container">
-      <img className="homepage" src = {HomepageTwo} alt = "3d artwork"/>
       <img className="homepage" src = {HomepageOne} alt = "3d artwork"/>
+      <img className="homepage" src = {HomepageTwo} alt = "3d artwork"/>
       <img className="homepage" src = {HomepageThree} alt = "3d artwork"/>
 
 
@@ -105,7 +105,7 @@ function Home() {
             wide web and being fascinated by the little crevices of the internet, plus video games. <br></br>This led me to grow up being extremely tech-savvy
             and finding a comfort when working with and troubleshooting issues with computers.<br></br> However, I am a big believer in following your heart's 
             desires,<br></br>and so I dedicated most of my high school-university experience to my love for music. This lead me to neglect a lot of other
-            pathways and interests until after I graduated from university.<br></br> Which is where programming and software engineering came in.<br></br> As 
+            pathways and interests until after I graduated from university.<br></br> Which is when software engineering came in.<br></br> As 
             someone with no background in STEM, it has been a long, challenging road,<br></br> often suffering from intense imposter syndrome and self
             -comparisons to others, and believe me, I'm still conquering a lot of things on this journey.<br></br> But every step has been rewarding 
             and has taught me things about myself along the way, and I can't wait to grow and learn more.</p>
@@ -131,13 +131,12 @@ function Home() {
             at B2-C1 level, which is upper intermediate. <br></br> I am also fluent in Persian, as well as early conversational in Spanish, Japanese 
             and Mandarin. <br></br>I aim to be a polyglot by 2025.</p>
             <br></br>
-            <br></br>
           <p className="about-me">I have taught myself a lot about various subjects in recent years.<br></br>I hope to carry on growing my knowledge in all areas I am interested in,
         both technical and artistic in the years to come,<br></br> as well as the new things I wish to learn, whether that's technical or purely creative.</p>
         </div>
         <div className="container-4">
-          <h3>Mission & Work ethic</h3>
-          <p className="about-me">
+          <h3 className="black">Mission & Work ethic</h3>
+          <p className="mission">
             My current mission is to join a company where I can continue to enhance my skills, be myself, and receive the appropriate 
             guidance and mentorship to grow as a developer.<br></br> I also aim to learn more about UX design this year and perhaps take a course or 
             start self-teaching myself in this area of tech. <br></br>In future, I would like to learn about various different areas of technology, 
@@ -222,8 +221,8 @@ function Home() {
           </div>
         </div>
         <div className="container-6">
-          <h3>Projects and experience</h3>
-          <p className="about-me">
+          <h3 className="black">Projects and experience</h3>
+          <p className="mission">
             I have recently graduated from a 480 hour bootcamp at <a className="ga-a" href="https://generalassemb.ly/">General Assembly</a><br>
             </br> where we were given time-constrained projects to complete, in solo, in pairs as well as in groups.
           </p>

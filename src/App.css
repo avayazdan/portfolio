@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@700&display=swap');
 
 @font-face {
   font-family: NavFont;
@@ -22,7 +22,7 @@ body {
 .container {
   width: 100%;
   height: 60vh;
-  background: #232323;
+  background: #0e131f;
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -31,7 +31,7 @@ body {
 .container-2 {
   width: 100%;
   height: 60vh;
-  background: #b490b2;
+  background: #f5f7fb
   /* background: radial-gradient(#a23982,#b490b2); */
 
 }
@@ -82,6 +82,8 @@ h1 {
 h4 {
   color: white;
   text-align: center;
+  text-shadow: 0 0 32px white;
+
 }
 
 .space {
@@ -91,11 +93,27 @@ h4 {
 .about-me {
   font-family: 'Red Hat Mono', monospace;
   text-align: center;
+  color:  #f99bb1;
+  font-weight: bolder;
 }
+
+label {
+  color: #ff6488;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: rgb(255, 93, 120);
+}
+
+@keyframes animate-stripes {
+  to { background-position: -50px 0; }
+}
+
 
 .ga-a {
   font-family: 'Red Hat Mono', monospace;
   font-size: 20px;
+  color: white;
 }
   
 span {
@@ -241,7 +259,7 @@ p {
 .container-3 {
   width: 100%;
   height: 99vh;
-  background-color: #e91e63;
+  background-color:  #0e131f;
   margin-top: -30px;
   margin-bottom: -30px;
 
@@ -252,7 +270,16 @@ p {
   height: 70vh;
   margin-top: -20px;
   padding-bottom: 30px;
-  background-color: #ab647b;
+  background-color: #f5f7fb;
+}
+
+.black {
+  color: #0e131f;
+}
+
+.mission {
+  color: #ea004e;
+  text-align: center;
 }
 
 
@@ -260,21 +287,21 @@ p {
   width: 100%;
   height: 70vh;
   margin-top: -30px;
-  background-color: #da7fc8c8;
+  background-color: #0e131f;
 }
 
 .container-6 {
   width: 100%;
   height: 70vh;
   margin-top: -30px;
-  background-color: #7bc2d2c8;
+  background-color: #f5f7fb;
 }
 
 .container-7 {
   width: 100%;
   height: 75vh;
   margin-top: -30px;
-  background-color: #1e928ec8;
+  background-color: #0e131f;
 }
 
 .links-container {
@@ -328,8 +355,8 @@ h3 {
 
 a {
     text-decoration: none;
-    color: aquamarine;
-    font-size: 5vh;
+    color:  #0e131f;
+    font-size: 6vh;
     font-family: NavFont;
 }
 
@@ -367,10 +394,18 @@ ul {
 
 /* f o o t e r */
 
+.footer-container {
+  background-color: rgb(252, 107, 131);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
-    color: aquamarine;
+    color: black;
+    padding-top: 10px;
+    background-color: rgb(252, 107, 131);
 
 }
 
