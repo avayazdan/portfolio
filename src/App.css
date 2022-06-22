@@ -93,7 +93,7 @@ h4 {
 .about-me {
   font-family: 'Red Hat Mono', monospace;
   text-align: center;
-  color:  #f99bb1;
+  color:  #ff6488;
   font-weight: bolder;
 }
 
@@ -104,15 +104,15 @@ label {
 meter::-webkit-meter-optimum-value {
   background: rgb(255, 93, 120);
 }
-
+/* 
 @keyframes animate-stripes {
   to { background-position: -50px 0; }
-}
+} */
 
 .ga-a {
   font-family: 'Red Hat Mono', monospace;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 .ga-p {
@@ -158,7 +158,7 @@ span {
   display: flex;
 }
   
-p {
+.start {
   animation: secFadeIn 2s forwards;
   animation-delay: 3.2s;
   opacity: 0;

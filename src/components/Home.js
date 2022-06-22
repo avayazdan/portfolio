@@ -15,11 +15,12 @@ import Walkies from "../assets/walkies.png"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // stuff to do:
+
 // fix/add scroll animation 
 // add borders to about me section
 // add some sort of background animation to skills
 // add a fixed when scrolling image to the whole background
-// add opacity hover animation to images
+// add opacity or glitch? hover animation to images
 // add scroll down to sections from navigation
 // add final media queries 
 
@@ -39,7 +40,7 @@ function Home() {
         </div>
     <div className="role">
       <div className="block"></div>
-      <p>Full Stack Software Engineer</p>
+      <p className="start">Full Stack Software Engineer</p>
       </div>
       </div>
       </div>
@@ -152,7 +153,8 @@ function Home() {
       </div>
         </div>
         <div className="container-5">
-          <h3>Skills</h3>
+          <h3>Skills</h3>&nbsp;
+          <h4>Skills are ranked in terms of confidence level.</h4>
           <div className="skills-container">
             <div className="tech-container">
           <h3>Technical skills</h3>
@@ -226,8 +228,8 @@ function Home() {
             </br> where we were given time-constrained projects to complete, in solo, in pairs as well as in groups.
           </p>
           <div className="projects-container">
-      <img className="projects" src = {Dnd} alt = "3d artwork"/>
       <img className="projects" src = {Btj} alt = "3d artwork"/>
+      <img className="projects" src = {Dnd} alt = "3d artwork"/>
       <img className="projects" src = {Walkies} alt = "3d artwork"/>
       <img className="projects" src = {Aliens} alt = "3d artwork"/>
       </div>
