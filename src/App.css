@@ -11,6 +11,10 @@
   src: url(assets/TRIBTWO_.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     /* background-image: url("3.gif"); */
     background-repeat: no-repeat;
@@ -115,7 +119,13 @@ meter::-webkit-meter-optimum-value {
   color: black;
 }
 
-.ga-p {
+.ga-b {
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 20px;
+  color: white;
+}
+
+h5 {
   color: black;
   font-family: 'Red Hat Mono', monospace;
   font-size: 20px;

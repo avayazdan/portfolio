@@ -50,26 +50,26 @@ function Home() {
         <nav className="navigation">
           <ul>
 
-            <a href='#'>
+            <a href='#first'>
               <li>About me &nbsp; &nbsp;</li>
             </a>
 
 
-            <a href='#'>
+            <a href='#second'>
               <li>Mission & Work Ethic &nbsp; &nbsp;</li>
             </a>
 
-            <a href='#'>
+            <a href='#third'>
               <li>Skills &nbsp; &nbsp;</li>
             </a>
 
 
-            <a href='#'>
+            <a href='#fourth'>
               <li>Projects&nbsp; &nbsp;</li>
             </a>
 
 
-            <a href='#'>
+            <a href='#fifth'>
               <li>Contact</li>
             </a>
 
@@ -90,6 +90,7 @@ function Home() {
         </div>
       </div>
       <section id="about">
+        <div id="first">
         <div className="container-3">
               <h3>About me</h3>
           <h4>Hi, I'm Ava. I'm a Full Stack Software Engineer with a passion for
@@ -134,6 +135,8 @@ function Home() {
           <p className="about-me">I have taught myself a lot about various subjects in recent years.<br></br>I hope to carry on growing my knowledge in all areas I am interested in,
         both technical and artistic in the years to come,<br></br> as well as the new things I wish to learn, whether that's technical or purely creative.</p>
         </div>
+        </div>
+        <div id="second">
         <div className="container-4">
           <h3 className="black">Mission & Work ethic</h3>
           <p className="mission">
@@ -149,12 +152,13 @@ function Home() {
       <img className="homepage" src = {HomepageFive} alt = "3d artwork"/>
       <img className="homepage" src = {HomepageFour} alt = "3d artwork"/>
       <img className="homepage" src = {HomepageSix} alt = "3d artwork"/>
-
+      </div>
       </div>
         </div>
+        <div id="third">
         <div className="container-5">
           <h3>Skills</h3>&nbsp;
-          <h4>Skills are ranked in terms of confidence level.</h4>
+          <h4>Skills are shown in terms of confidence level.</h4>
           <div className="skills-container">
             <div className="tech-container">
           <h3>Technical skills</h3>
@@ -221,6 +225,8 @@ function Home() {
           </div>
           </div>
         </div>
+        </div>
+        <div id="fourth">
         <div className="container-6">
           <h3 className="black">Projects and experience</h3>
           <p className="mission">
@@ -228,29 +234,36 @@ function Home() {
             </br> where we were given time-constrained projects to complete, in solo, in pairs as well as in groups.
           </p>
           <div className="projects-container">
-      <img className="projects" src = {Btj} alt = "3d artwork"/>
-      <img className="projects" src = {Dnd} alt = "3d artwork"/>
-      <img className="projects" src = {Walkies} alt = "3d artwork"/>
-      <img className="projects" src = {Aliens} alt = "3d artwork"/>
+      
+      <a href="https://github.com/avayazdan/btj-client"> <img className="projects" src = {Btj} alt = "3d artwork"/></a>
+      <a href="https://dndgeneratorr.netlify.app/"><img className="projects" src = {Dnd} alt = "3d artwork"/></a>
+      <a href="https://walkiessei22.netlify.app/"><img className="projects" src = {Walkies} alt = "3d artwork"/></a>
+      <a href="https://space-invaders-1337.netlify.app/"><img className="projects" src = {Aliens} alt = "3d artwork"/></a>
       </div>
       <div className="titles-container">
-          <h4><a className="ga-p" href="https://dndgeneratorr.netlify.app/">Dungeons & Dragons character builder <br></br>- Paired project - 1 week</a></h4>
-          <h4><a className="ga-p" href="https://github.com/avayazdan/btj-client">Bite The Jaw - Solo Project - 2 weeks</a></h4>
-          <h4><a className="ga-p" href="https://walkiessei22.netlify.app/">Walkies - Group Project - 2 weeks</a></h4>
-          <h4><a className="ga-p" href="https://space-invaders-1337.netlify.app/">Space Invaders - Solo Project - 1 week</a></h4>
+          <p className="mission">Dungeons & Dragons character builder <br></br>- Paired project - 1 week<br></br><br></br> Built using an external API<br></br>
+          React and SASS.</p>
+          <h5>Bite The Jaw - Solo Project - 2 weeks <br></br><br></br>Built with my own API. This project utilised Django, <br></br> Python,
+          PostgreSQL, TablePlus, React and CSS.</h5>
+          <p className="mission">Walkies - Group Project - 2 weeks<br></br><br></br>Built and uses our own API. This project utilised Express, <br></br>MongoDB,
+          Mongoose, JavaScript, React and CSS.</p>
+          <h5>Space Invaders - Solo Project - 1 week<br></br><br></br>Built a web-game using HTML, CSS and JavaScript.</h5>
           </div>
         </div>
+        </div>
+        <div id="fifth">
         <div className="container-7">
           <h3>Contact</h3>
           <p className="about-me">
             If there's anything you liked about this portfolio, or you want to hear more about music or other creative endevours, or just
             simply want to get in touch, you can find me at <strong>avayaz1337@gmail.com</strong>.<br></br>
             <div className="links-container">
-            <a className="ga-a" href="https://github.com/avayazdan">Github</a><br></br>&nbsp;&nbsp;&nbsp;
-            <a className="ga-a" href="https://linkedin.com/ava-yazdany">LinkedIn</a><br></br>
+            <a className="ga-b" href="https://github.com/avayazdan">Github</a><br></br>&nbsp;&nbsp;&nbsp;
+            <a className="ga-b" href="https://linkedin.com/ava-yazdany">LinkedIn</a><br></br>
             </div>
       <img className="homepage" src = {HomepageSeven} alt = "3d artwork"/>
           </p>
+        </div>
         </div>
       </section>
               </>
