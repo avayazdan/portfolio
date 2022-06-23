@@ -12,16 +12,16 @@ import Aliens from "../assets/aliens.png"
 import Btj from "../assets/btj.png"
 import Dnd from "../assets/dnd.png"
 import Walkies from "../assets/walkies.png"
+import Skill from "../assets/gifskill2.gif"
+import SkillT from "../assets/gifskill.gif"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // stuff to do:
 
 // fix/add scroll animation 
 // add borders to about me section
-// add some sort of background animation to skills
-// add a fixed when scrolling image to the whole background
 // add opacity or glitch? hover animation to images
-// add scroll down to sections from navigation
+
 // add final media queries 
 
 function Home() {
@@ -34,6 +34,8 @@ function Home() {
       </div>
     </div> */}
     <div className="container">
+      <img className="skillz" src = {SkillT} alt = "3d artwork"/>
+
     <div className="box">
         <div className="title">
             <h1>Ava Yaz</h1>
@@ -190,7 +192,6 @@ function Home() {
 <meter id="disk_d" value="0.8">70%</meter><br></br><br></br>
 <label for="html">Insomnia/Postman</label>&nbsp;&nbsp;
 <meter id="disk_d" value="0.8">70%</meter>
-
           </div>
           <div className="soft-container">
           <h3>Soft and other skills</h3>

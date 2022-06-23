@@ -16,7 +16,8 @@ html {
 }
 
 body {
-    /* background-image: url("3.gif"); */
+  /* background-image: url("3.gif"); */
+    /* background-image: url(./assets/gifskill.gif); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: black;
@@ -129,6 +130,17 @@ h5 {
   color: black;
   font-family: 'Red Hat Mono', monospace;
   font-size: 20px;
+}
+
+
+.skillz {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 1700px;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
 }
   
 span {
@@ -364,6 +376,7 @@ h3 {
 .skills-container {
   display: flex;
   justify-content: space-evenly;
+  background: url(./assets/gifskill2.gif) no-repeat center center;
 }
 
 /* n a v i g a t i o n */
