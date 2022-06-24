@@ -59,8 +59,7 @@ function Home() {
 
             <a href='#second'>
               <li>Mission & Work Ethic &nbsp; &nbsp;</li>
-            </a>
-
+            </a>8
             <a href='#third'>
               <li>Skills &nbsp; &nbsp;</li>
             </a>
@@ -257,7 +256,7 @@ function Home() {
           <h3>Contact</h3>
           <p className="about-me">
             If there's anything you liked about this portfolio, or you want to hear more about music or other creative endevours, or just
-            simply want to get in touch, you can find me at <strong>avayaz1337@gmail.com</strong>.<br></br>
+            simply want to get in touch, you can find me at <h4>avayaz1337@gmail.com</h4>.<br></br>
             <div className="links-container">
             <a className="ga-b" href="https://github.com/avayazdan">Github</a><br></br>&nbsp;&nbsp;&nbsp;
             <a className="ga-b" href="https://linkedin.com/ava-yazdany">LinkedIn</a><br></br>
