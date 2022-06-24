@@ -444,7 +444,7 @@ ul {
   }
 
   .container-3 {
-    height: 170vh;
+    height: 190vh;
   }
 
   .container-4 {
@@ -468,6 +468,10 @@ ul {
     height: 94vh;
   }
 
+  h5 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
   .container-7 {
     height: 90vh;
   }
