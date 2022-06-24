@@ -26,7 +26,7 @@ body {
 
 .container {
   width: 100%;
-  height: 60vh;
+  max-height: 60vh;
   background: #0e131f;
   display: flex;
   justify-content: center;
@@ -35,7 +35,7 @@ body {
 
 .container-2 {
   width: 100%;
-  height: 60vh;
+  max-height: 60vh;
   background: #f5f7fb
   /* background: radial-gradient(#a23982,#b490b2); */
 
@@ -55,7 +55,7 @@ body {
   
 .box {
   width: 250px;
-  height: 250px;
+  max-height: 250px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -67,7 +67,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  height: 50px;
+  max-height: 50px;
 }
   
 h1 {
@@ -145,7 +145,7 @@ h5 {
   
 span {
   width:0px;
-  height: 0px;
+  max-height: 0px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -165,13 +165,13 @@ span {
   position: relative;
   display: flex;
   align-items: center;
-  height: 30px;
+  max-height: 30px;
   margin-top: 10px;
 }
       
 .block {
   width: 0%;
-  height: inherit;
+  max-height: inherit;
   background: #e91e63;
   opacity: 0.1;
   position: absolute;
@@ -285,7 +285,7 @@ span {
 
 .container-3 {
   width: 100%;
-  height: 99vh;
+  max-height: 99vh;
   background-color:  #0e131f;
   margin-top: -30px;
   margin-bottom: -30px;
@@ -294,7 +294,7 @@ span {
 
 .container-4 {
   width: 100%;
-  height: 70vh;
+  max-height: 70vh;
   margin-top: -20px;
   padding-bottom: 30px;
   background-color: #f5f7fb;
@@ -312,21 +312,21 @@ span {
 
 .container-5 {
   width: 100%;
-  height: 70vh;
+  max-height: 70vh;
   margin-top: -30px;
   background-color: #0e131f;
 }
 
 .container-6 {
   width: 100%;
-  height: 70vh;
+  max-height: 70vh;
   margin-top: -30px;
   background-color: #f5f7fb;
 }
 
 .container-7 {
   width: 100%;
-  height: 75vh;
+  max-height: 75vh;
   margin-top: -30px;
   background-color: #0e131f;
 }
@@ -348,7 +348,7 @@ span {
 
 .projects {
   width: 35vh;
-  height: 20vh;
+  max-height: 20vh;
 }
 
 .titles-container {
@@ -444,23 +444,106 @@ ul {
   }
 
   .container-3 {
-    height: 189vh;
+    height: 188vh;
   }
 
   .container-4 {
     height: 97vh;
   }
 
+  .soft-container {
+    margin-left: 190px;
+    padding-left: 190px;
+  }
+
+  .tech-container {
+    padding-left: 120px;
+  }
+
   .container-5 {
-    height: 115vh;
+    height: 129vh;
   }
 
   .container-6 {
-    height: 81vh;
+    height: 99vh;
   }
 
+  h5 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
   .container-7 {
-    height: 90vh;
+    height: 92vh;
   }
 
 }
+
+/* @media screen and (max-width: 360px) and (max-height: 640px) {
+
+  html {
+    width: 700px;
+    margin-left: 0;
+    /* padding-left: 0; */
+    /* background-color: transparent; */
+  /* }
+
+  h1 {
+    padding-left: 30px;
+  }
+
+  .homepage {
+    height: 39vh;
+    width: 30vh;
+  } */
+
+  /* .about-me {
+    font-size: 8px;
+  }
+  .start {
+    padding-left: 30px;
+  }
+
+  .container {
+    height: 80vh;
+    width: 100%;
+  }
+
+
+  .container-2 {
+    height: 100vh;
+  }
+
+  .container-3 {
+    height: 188vh;
+  }
+
+  .container-4 {
+    height: 93vh;
+  }
+
+  .soft-container {
+    margin-left: 190px;
+    padding-left: 190px;
+  }
+
+  .tech-container {
+    padding-left: 120px;
+  }
+
+  .container-5 {
+    height: 129vh;
+  }
+
+  .container-6 {
+    height: 99vh;
+  }
+
+  h5 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .container-7 {
+    height: 92vh;
+  }
+
+} */ 
