@@ -59,7 +59,7 @@ function Home() {
 
             <a href='#second'>
               <li>Mission & Work Ethic &nbsp; &nbsp;</li>
-            </a>8
+            </a>
             <a href='#third'>
               <li>Skills &nbsp; &nbsp;</li>
             </a>
