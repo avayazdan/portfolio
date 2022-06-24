@@ -44,7 +44,7 @@ function Nav() {
               <a href ="https://www.instagram.com" target="_blank" rel="noreferrer noopener"><img src ={InstagramLogo} alt ="instagram logo"></img></a> */}
               </div>
             <footer>
-              <p className="footer">Website by Ava Yaz, built with React ⚛️ </p>
+              <p className="footer">Site by Ava Yaz, built with React and vanilla CSS ⚛️ </p>
               <div className="contact-container">
               <p className="footer"><br></br>Artwork by JIIING7 on Tumblr<br>
               </br><br>
