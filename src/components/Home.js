@@ -19,10 +19,9 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 // stuff to do:
 
 // fix/add scroll animation 
-// add borders to about me section
+// add borders to about me section?
 // add opacity or glitch? hover animation to images
-
-// add final media queries 
+// make mobile responsive 
 
 function Home() {
     return (
@@ -34,7 +33,7 @@ function Home() {
       </div>
     </div> */}
     <div className="container">
-      <img className="skillz" src = {SkillT} alt = "3d artwork"/>
+      {/* <img className="skillz" src = {SkillT} alt = "3d artwork"/> */}
 
     <div className="box">
         <div className="title">
@@ -52,25 +51,25 @@ function Home() {
         <nav className="navigation">
           <ul>
 
-            <a href='#first'>
+            <a href='#about'>
               <li>About me &nbsp; &nbsp;</li>
             </a>
 
 
-            <a href='#second'>
+            <a href='#mission'>
               <li>Mission & Work Ethic &nbsp; &nbsp;</li>
             </a>
-            <a href='#third'>
+            <a href='#skills'>
               <li>Skills &nbsp; &nbsp;</li>
             </a>
 
 
-            <a href='#fourth'>
+            <a href='#projects'>
               <li>Projects&nbsp; &nbsp;</li>
             </a>
 
 
-            <a href='#fifth'>
+            <a href='#contact'>
               <li>Contact</li>
             </a>
 
@@ -91,7 +90,7 @@ function Home() {
         </div>
       </div>
       <section id="about">
-        <div id="first">
+        <div id="about">
         <div className="container-3">
               <h3>About me</h3>
           <h4>Hi, I'm Ava. I'm a Full Stack Software Engineer with a passion for
@@ -137,7 +136,7 @@ function Home() {
         both technical and artistic in the years to come,<br></br> as well as the new things I wish to learn, whether that's technical or purely creative.</p>
         </div>
         </div>
-        <div id="second">
+        <div id="mission">
         <div className="container-4">
           <h3 className="black">Mission & Work ethic</h3>
           <p className="mission">
@@ -156,7 +155,7 @@ function Home() {
       </div>
       </div>
         </div>
-        <div id="third">
+        <div id="skills">
         <div className="container-5">
           <h3>Skills</h3>&nbsp;
           <h4>Skills are shown in terms of confidence level.</h4>
@@ -226,7 +225,7 @@ function Home() {
           </div>
         </div>
         </div>
-        <div id="fourth">
+        <div id="projects">
         <div className="container-6">
           <h3 className="black">Projects and experience</h3>
           <p className="mission">
@@ -251,7 +250,7 @@ function Home() {
           </div>
         </div>
         </div>
-        <div id="fifth">
+        <div id="contact">
         <div className="container-7">
           <h3>Contact</h3>
           <p className="about-me">
